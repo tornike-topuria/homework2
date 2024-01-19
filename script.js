@@ -4,9 +4,8 @@ for(let i = 0; i <= 95; i = i + 1) {
 }
 
 // 2
-let array1= [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];
-for( array1 > 0; array1 < 10; array1 = array1 + 1){
-    console.log( 1 + array1)
+let array1= [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];{
+for( array1 > 0; array1 < 10; array1 = array1 + 1)
     console.log(array1 [0, 1, 2, 5, 6, 7, 9, 10])
    }
 
@@ -22,8 +21,8 @@ let array3 = [1, 2, 3, 4, 5];
 
 let sum = 0
 
-for (let mimateba = 0; mimateba < array3.length; mimateba++) {
-    sum = sum + array3[mimateba]
+for (let jami = 0; jami < array3.length; jami++) {
+    sum = sum + array3[jami]
 }
 console.log(sum);
 
