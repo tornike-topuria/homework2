@@ -5,15 +5,24 @@ for(let i = 0; i <= 95; i = i + 1) {
 
 // 2
 let array1= [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12];{
-for( array1 > 0; array1 < 10; array1 = array1 + 1)
-    console.log(array1 [0, 1, 2, 5, 6, 7, 9, 10])
+   for(let i = 0; i < array1.length; i = i + 1)
+   {
+       if(array1[i] > 0 && array1[i] < 10){
+           console.log(array1[i]);
+       }
+       else{}
    }
+}
 
 // 3
- let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];{
-    for(array2 > 0; array2  < 10; array2 = array2 + 1)
-    console.log(array2[4] + "არის" )
-    if(array2){console.log("არის")}
+ let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+   for(let i = 0; i < array1.length; i = i + 1){
+      if(array2[i]==5){
+          console.log('არის');
+          break;
+      
+  }
+  
  }
 
  // 4  
@@ -21,14 +30,14 @@ let array3 = [1, 2, 3, 4, 5];
 
 let sum = 0
 
-for (let jami = 0; jami < array3.length; jami++) {
+for (let jami = 0; jami < array3.length; jami = jami + 1) {
     sum = sum + array3[jami]
 }
 console.log(sum);
 
 // 5
 let array4 = [1, 2, 3, 7, 6, 9];
-for (let average = 0; average < array4.length; average++) {
+for (let average = 0; average < array4.length; average = average + 1) {
     sum = sum + array4[average]
 }
 
@@ -36,11 +45,16 @@ console.log(sum / array4.length);
 
  
 // 6
-// let array5 = [1, 2, 3, 7, 6, 9]
+let array5 = [1, 2, 3, 7, 6, 9]
+for(let i = 0; i < array5.length; i = i + 1){
+   if(array5[i]==7){
+       continue;
+   }
+   else{
+       console.log(array5[i]);
+   }
+}
 
-// {
-
-// }
 
 // 7
 let user = {
@@ -80,10 +94,28 @@ else {
 
 
 // 9
-// let array = [ [2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10] ];
-// for(array = 0; array <= 10; array = array + 1){
-//    console.log(array[[0[0,2,3], [0,3],[2]]])
-// }
+let array = [ [2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10] ];
+for(let i = 0; i <array.length; i = i + 1){
+   for(j = 0; j < array[i].length; j = j + 1){
+       if(array[i][j] > 0){
+           console.log(array[i][j]);
+       }
+   }
+}
+// 10
+let numbers = [ 2, 3, 5, 10,25,24,11, 100 , 6,7, 10 ]
+for(i = 0; i < numbers.length; i = i + 1){
+   if(numbers[i] % 2 == 0){
+       console.log(numbers[i]);
+   }
+}
+for(i = 0; i<numbers.length; i = i + 1){
+   if(numbers[i] % 2 == 1){
+       console.log(numbers[i]);
+      }
+   }
+
+
 
 // 11
 let users = [
